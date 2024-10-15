@@ -1,0 +1,19 @@
+@to_do_HostAddress = https://localhost:7081
+
+GET {{to_do_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+GET {{to_do_HostAddress}}/api/todo
+
+###
+
+POST {{to_do_HostAddress}}/api/todo
+Content-Type: application/json
+
+{
+  //Items
+}
+
+###
